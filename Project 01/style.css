@@ -1,0 +1,85 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+body{
+    font-family: Poppins,sans-serif;
+}
+.container{
+    margin: 5% 0% 0% 10%;
+ 
+ }
+ .navbar-container>div>img{
+    height:30px;
+ }
+
+ .navbar-container
+{
+    display: flex;
+    justify-content:flex-start;
+    gap:20px;
+    align-items: center;
+
+}
+.grow-list ul{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    
+    gap:20px;
+}
+
+.list
+{
+    list-style-type: none;  
+    display: flex;
+    color:#CAD5E2;
+
+    
+}
+.list-item:hover
+{
+    
+    color: black;
+}
+.button-group{
+    position: absolute;
+    right:70px;
+}
+
+div.button-group > button.nav-button
+{
+background-color: rgb(82, 62, 170);
+color: aliceblue;
+border-radius: 5px;
+border:1px solid white;
+height: 30px;
+padding: 5px 10px 5px 10px ;
+/* align-items:flex-end; */
+}
+div.banner-container{
+    /* flex-wrap: wrap; */
+    display: flex;
+ }
+.heading-text
+{
+flex-wrap: wrap;
+font-size: 40px;
+}
+span{color: blue;}
+.description{ 
+    font-size: 11px;
+}
+div.banner-container >div>img {  
+    width: 500px;  
+    height: 450px;  
+    }
+
+div.banner-container>div>button.nav-button{
+    background-color: rgb(82, 62, 170);
+color: aliceblue;
+border-radius: 5px;
+margin-top:40px;
+height: 40px;
+border:1px solid white;
+padding: 10px 15px 10px 15px ;
+
+}
